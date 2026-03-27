@@ -35,7 +35,13 @@
         .title {
             text-align: center;
             padding: 20px 15px 10px;
-            font-size: clamp(18px, 5vw, 26px);
+            
+            /* Auto-scale */
+            font-size: clamp(16px, 4vw, 26px);
+            
+            /* Force single line */
+            white-space: nowrap;
+            
             color: #d81b60;
             font-weight: 700;
             text-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
